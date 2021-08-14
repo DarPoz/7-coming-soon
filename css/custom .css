@@ -16,3 +16,9 @@
 
 /* CUSTOM STYLE BELOW THIS COMPONENT LINE  */
 
+.bg-primary {
+    background-color: var(--primary-color);
+}
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
