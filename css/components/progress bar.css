@@ -1,6 +1,9 @@
 .progress-bar {
     width: 100%;
 }
+.progress-bar + .progress-bar {
+    margin-top: 25px;
+}
 .progress-bar > .top {
     display: inline-block;
     width: 100%;
@@ -16,6 +19,11 @@
 .progress-bar > .bottom {
     width: 100%;
     height: 8px;
-    background-color:ddd ;
+    background-color:#ddd ;
+}
+.progress-bar > .bottom .progress {
+    width: 90%;
+    height: 100%;
+    background-color: #36f;
 }
 
